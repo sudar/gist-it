@@ -6,7 +6,7 @@ http://github.com/robertkrimen/gist-it
 
 ### Try it
 
-You can try it at [gist-it.appspot.com](http://gist-it.appspot.com)
+You can try it at [gist-it.sudarmuthu.com](http://gist-it.sudarmuthu.com)
 
 ### Usage
 
@@ -21,6 +21,10 @@ Associated the handler with a path is pretty easy, for example:
 	wsgi_application = webapp.WSGIApplication( [
 		( r'(.*)', dispatch_gist_it ),
 	], debug=True )
+
+### WordPress Plugin
+
+There is also a [WordPress Plugin](http://sudarmuthu.com/wordpress/wp-github-gist), which allows you to embed gist and files from Github in your blog posts or pages.
 
 ### Testing
 
